@@ -14,6 +14,12 @@ Na pasta da aplicação WEB temos as alterações:
 
 1- Adição de imagens;
 
-2- Adição de um novo tipo de usuário;
+2- Adição de um novo tipo de usuário no arquivo web.xml;
 
-3- Arquivos do envelope e layaout que devem ser adicionados mesmo após a adição do arquivo workspace.
+3- Arquivos do envelope e layaout que devem ser adicionados mesmo após a adição do arquivo workspace;
+
+4- Uma nova tela de login com adição de um login automático;
+
+5- Novo favicon;
+
+6- Pasta do banco de dados de fácil acesso na pasta.
