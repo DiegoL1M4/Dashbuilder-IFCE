@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpis>
+  <dataprovider code="dataprovider_81391506513114355" type="csv">
+    <description language="pt">Planilha - Central de Estágios</description>
+    <csvprovider>
+      <csvSeparatedBy>,</csvSeparatedBy>
+      <csvQuoteChar>&quot;</csvQuoteChar>
+      <csvEscapeChar>\</csvEscapeChar>
+      <csvDatePattern>dd/MM/yyyy</csvDatePattern>
+      <csvNumberPattern>#,###.##</csvNumberPattern>
+      <fileURL>file://$APPLICATION_DIR/BANCOdeDADOS/CONTROLE DE ESTÁGIOS - ESTAGIÁRIOS.csv</fileURL>
+    </csvprovider>
+    <dataproperties>
+      <dataproperty id="protocolo">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">protocolo</name>
+        <name language="ru">protocolo</name>
+        <name language="zh">protocolo</name>
+        <name language="ja">protocolo</name>
+        <name language="en">Protocolo</name>
+        <name language="es">protocolo</name>
+        <name language="de">protocolo</name>
+        <name language="pt">Protocolo</name>
+      </dataproperty>
+      <dataproperty id="matricula">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">matricula</name>
+        <name language="ru">matricula</name>
+        <name language="zh">matricula</name>
+        <name language="ja">matricula</name>
+        <name language="en">Matricula</name>
+        <name language="es">matricula</name>
+        <name language="de">matricula</name>
+        <name language="pt">Matricula</name>
+      </dataproperty>
+      <dataproperty id="nome completo">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">nome completo</name>
+        <name language="zh">nome completo</name>
+        <name language="ru">nome completo</name>
+        <name language="ja">nome completo</name>
+        <name language="en">Nome</name>
+        <name language="es">nome completo</name>
+        <name language="de">nome completo</name>
+        <name language="pt">Nome</name>
+      </dataproperty>
+      <dataproperty id="curso">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">curso</name>
+        <name language="ru">curso</name>
+        <name language="zh">curso</name>
+        <name language="ja">curso</name>
+        <name language="en">Curso</name>
+        <name language="es">curso</name>
+        <name language="de">curso</name>
+        <name language="pt">Curso</name>
+      </dataproperty>
+      <dataproperty id="orientador">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">orientador</name>
+        <name language="zh">orientador</name>
+        <name language="ru">orientador</name>
+        <name language="ja">orientador</name>
+        <name language="en">Orientador</name>
+        <name language="es">orientador</name>
+        <name language="de">orientador</name>
+        <name language="pt">Orientador</name>
+      </dataproperty>
+      <dataproperty id="empresa">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">empresa</name>
+        <name language="ru">empresa</name>
+        <name language="zh">empresa</name>
+        <name language="ja">empresa</name>
+        <name language="en">Empresa</name>
+        <name language="es">empresa</name>
+        <name language="de">empresa</name>
+        <name language="pt">Empresa</name>
+      </dataproperty>
+      <dataproperty id="cidade">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">cidade</name>
+        <name language="zh">cidade</name>
+        <name language="ru">cidade</name>
+        <name language="ja">cidade</name>
+        <name language="en">Cidade</name>
+        <name language="es">cidade</name>
+        <name language="de">cidade</name>
+        <name language="pt">Localidade</name>
+      </dataproperty>
+      <dataproperty id="tipo de estágio">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">tipo de estágio</name>
+        <name language="zh">tipo de estágio</name>
+        <name language="ru">tipo de estágio</name>
+        <name language="ja">tipo de estágio</name>
+        <name language="en">Tipo de Estágio</name>
+        <name language="es">tipo de estágio</name>
+        <name language="de">tipo de estágio</name>
+        <name language="pt">Tipo de Estágio</name>
+      </dataproperty>
+      <dataproperty id="data inicial">
+        <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
+        <name language="fr">data inicial</name>
+        <name language="ru">data inicial</name>
+        <name language="zh">data inicial</name>
+        <name language="ja">data inicial</name>
+        <name language="en">Data Inicial</name>
+        <name language="es">data inicial</name>
+        <name language="de">data inicial</name>
+        <name language="pt">Data Inicial</name>
+      </dataproperty>
+      <dataproperty id="data final">
+        <domain>org.jboss.dashboard.domain.date.DateDomain</domain>
+        <name language="fr">data final</name>
+        <name language="ru">data final</name>
+        <name language="zh">data final</name>
+        <name language="ja">data final</name>
+        <name language="en">data final</name>
+        <name language="es">data final</name>
+        <name language="de">data final</name>
+        <name language="pt">Data Final</name>
+      </dataproperty>
+      <dataproperty id="relatório 1">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relatório 1</name>
+        <name language="ru">relatório 1</name>
+        <name language="zh">relatório 1</name>
+        <name language="ja">relatório 1</name>
+        <name language="en">relatório 1</name>
+        <name language="es">relatório 1</name>
+        <name language="de">relatório 1</name>
+        <name language="pt">Relatório 1</name>
+      </dataproperty>
+      <dataproperty id="relatório 2">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relatório 2</name>
+        <name language="ru">relatório 2</name>
+        <name language="zh">relatório 2</name>
+        <name language="ja">relatório 2</name>
+        <name language="en">relatório 2</name>
+        <name language="es">relatório 2</name>
+        <name language="de">relatório 2</name>
+        <name language="pt">Relatório 2</name>
+      </dataproperty>
+      <dataproperty id="relatório 3">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">relatório 3</name>
+        <name language="zh">relatório 3</name>
+        <name language="ru">relatório 3</name>
+        <name language="ja">relatório 3</name>
+        <name language="en">relatório 3</name>
+        <name language="es">relatório 3</name>
+        <name language="de">relatório 3</name>
+        <name language="pt">Relatório 3</name>
+      </dataproperty>
+      <dataproperty id="aditivo">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">aditivo</name>
+        <name language="zh">aditivo</name>
+        <name language="ru">aditivo</name>
+        <name language="ja">aditivo</name>
+        <name language="en">aditivo</name>
+        <name language="es">aditivo</name>
+        <name language="de">aditivo</name>
+        <name language="pt">Aditivo</name>
+      </dataproperty>
+      <dataproperty id="prorrogação do contrato">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">prorrogação do contrato</name>
+        <name language="ru">prorrogação do contrato</name>
+        <name language="zh">prorrogação do contrato</name>
+        <name language="ja">prorrogação do contrato</name>
+        <name language="en">prorrogação do contrato</name>
+        <name language="es">prorrogação do contrato</name>
+        <name language="de">prorrogação do contrato</name>
+        <name language="pt">Prorrogação do Contrato</name>
+      </dataproperty>
+      <dataproperty id="entrega da doc. final">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">entrega da doc. final</name>
+        <name language="ru">entrega da doc. final</name>
+        <name language="zh">entrega da doc. final</name>
+        <name language="ja">entrega da doc. final</name>
+        <name language="en">entrega da doc. final</name>
+        <name language="es">entrega da doc. final</name>
+        <name language="de">entrega da doc. final</name>
+        <name language="pt">Entrega da doc. final</name>
+      </dataproperty>
+      <dataproperty id="situação do estágio">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">situação do estágio</name>
+        <name language="ru">situação do estágio</name>
+        <name language="zh">situação do estágio</name>
+        <name language="ja">situação do estágio</name>
+        <name language="en">Situação do Estágio</name>
+        <name language="es">situação do estágio</name>
+        <name language="de">situação do estágio</name>
+        <name language="pt">Situação do Estágio</name>
+      </dataproperty>
+      <dataproperty id="total de horas">
+        <domain>org.jboss.dashboard.domain.numeric.NumericDomain</domain>
+        <name language="fr">total de horas</name>
+        <name language="ru">total de horas</name>
+        <name language="zh">total de horas</name>
+        <name language="ja">total de horas</name>
+        <name language="en">Total de Horas</name>
+        <name language="es">total de horas</name>
+        <name language="de">total de horas</name>
+        <name language="pt">Total de Horas</name>
+      </dataproperty>
+      <dataproperty id="observações">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">observações</name>
+        <name language="ru">observações</name>
+        <name language="zh">observações</name>
+        <name language="ja">observações</name>
+        <name language="en">Observações</name>
+        <name language="es">observações</name>
+        <name language="de">observações</name>
+        <name language="pt">Observações</name>
+      </dataproperty>
+      <dataproperty id="">
+        <domain>org.jboss.dashboard.domain.label.LabelDomain</domain>
+      </dataproperty>
+      <dataproperty id="e - mês">
+        <domain convertedFromNumeric="true" >org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">e - mês</name>
+        <name language="ru">e - mês</name>
+        <name language="zh">e - mês</name>
+        <name language="ja">e - mês</name>
+        <name language="en">Mês</name>
+        <name language="es">e - mês</name>
+        <name language="de">e - mês</name>
+        <name language="pt">Mês</name>
+      </dataproperty>
+      <dataproperty id="e - ano">
+        <domain convertedFromNumeric="true" >org.jboss.dashboard.domain.label.LabelDomain</domain>
+        <name language="fr">e - ano</name>
+        <name language="ru">e - ano</name>
+        <name language="zh">e - ano</name>
+        <name language="ja">e - ano</name>
+        <name language="en">Ano</name>
+        <name language="es">e - ano</name>
+        <name language="de">e - ano</name>
+        <name language="pt">Ano</name>
+      </dataproperty>
+    </dataproperties>
+  </dataprovider>
+  <kpi code="kpi_20941506515977939">
+    <description language="pt">Estágios por Curso</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>curso</propertyid>
+        <name language="fr">curso</name>
+        <name language="ru">curso</name>
+        <name language="zh">curso</name>
+        <name language="ja">curso</name>
+        <name language="en">curso</name>
+        <name language="es">curso</name>
+        <name language="de">curso</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>12</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>curso</propertyid>
+        <name language="fr">curso</name>
+        <name language="ru">curso</name>
+        <name language="zh">curso</name>
+        <name language="ja">curso</name>
+        <name language="en">Curso</name>
+        <name language="es">curso</name>
+        <name language="de">curso</name>
+        <name language="pt">   </name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>1250</width>
+      <height>600</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>110</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>210</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21741506517503768">
+    <description language="pt">Estágios por Empresa</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>empresa</propertyid>
+        <name language="fr">empresa</name>
+        <name language="zh">empresa</name>
+        <name language="ru">empresa</name>
+        <name language="ja">empresa</name>
+        <name language="en">empresa</name>
+        <name language="es">empresa</name>
+        <name language="de">empresa</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>12</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>empresa</propertyid>
+        <name language="fr">empresa</name>
+        <name language="ru">empresa</name>
+        <name language="zh">empresa</name>
+        <name language="ja">empresa</name>
+        <name language="en">Empresa</name>
+        <name language="es">empresa</name>
+        <name language="de">empresa</name>
+        <name language="pt">   </name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>1250</width>
+      <height>600</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>100</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>200</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21721506517391380">
+    <description language="pt">Estágios por Localidade</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>cidade</propertyid>
+        <name language="fr">cidade</name>
+        <name language="zh">cidade</name>
+        <name language="ru">cidade</name>
+        <name language="ja">cidade</name>
+        <name language="en">cidade</name>
+        <name language="es">cidade</name>
+        <name language="de">cidade</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>12</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>cidade</propertyid>
+        <name language="fr">cidade</name>
+        <name language="zh">cidade</name>
+        <name language="ru">cidade</name>
+        <name language="ja">cidade</name>
+        <name language="en">Cidade</name>
+        <name language="es">cidade</name>
+        <name language="de">cidade</name>
+        <name language="pt">   </name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>0</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>1250</width>
+      <height>600</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>100</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_20421506515604896">
+    <description language="pt">Estágios por Período</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="linechart" renderer="nvd3">
+      <domain>
+        <propertyid>data inicial</propertyid>
+        <name language="fr">data inicial</name>
+        <name language="ru">data inicial</name>
+        <name language="zh">data inicial</name>
+        <name language="ja">data inicial</name>
+        <name language="en">data inicial</name>
+        <name language="es">data inicial</name>
+        <name language="de">data inicial</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>12</maxnumberofintervals>
+        <taminterval>5</taminterval>
+      </domain>
+      <range>
+        <propertyid>data inicial</propertyid>
+        <name language="fr">data inicial</name>
+        <name language="ru">data inicial</name>
+        <name language="zh">data inicial</name>
+        <name language="ja">data inicial</name>
+        <name language="en">Data Inicial</name>
+        <name language="es">data inicial</name>
+        <name language="de">data inicial</name>
+        <name language="pt">Data Inicial</name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>0</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>1250</width>
+      <height>600</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>60</marginleft>
+      <marginright>60</marginright>
+      <margintop>30</margintop>
+      <marginbottom>100</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21521506516499302">
+    <description language="pt">Orientadores</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>orientador</propertyid>
+        <name language="fr">orientador</name>
+        <name language="ru">orientador</name>
+        <name language="zh">orientador</name>
+        <name language="ja">orientador</name>
+        <name language="en">orientador</name>
+        <name language="es">orientador</name>
+        <name language="de">orientador</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>12</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>orientador</propertyid>
+        <name language="fr">orientador</name>
+        <name language="zh">orientador</name>
+        <name language="ru">orientador</name>
+        <name language="ja">orientador</name>
+        <name language="en">Orientador</name>
+        <name language="es">orientador</name>
+        <name language="de">orientador</name>
+        <name language="pt">   </name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>1250</width>
+      <height>500</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>100</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>150</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21661506517124968">
+    <description language="pt">Situação do Estágio</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>situação do estágio</propertyid>
+        <name language="fr">situação do estágio</name>
+        <name language="ru">situação do estágio</name>
+        <name language="zh">situação do estágio</name>
+        <name language="ja">situação do estágio</name>
+        <name language="en">situação do estágio</name>
+        <name language="es">situação do estágio</name>
+        <name language="de">situação do estágio</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>situação do estágio</propertyid>
+        <name language="fr">situação do estágio</name>
+        <name language="ru">situação do estágio</name>
+        <name language="zh">situação do estágio</name>
+        <name language="ja">situação do estágio</name>
+        <name language="en">Situação do Estágio</name>
+        <name language="es">situação do estágio</name>
+        <name language="de">situação do estágio</name>
+        <name language="pt">   </name>
+        <scalarfunction>count</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>600</width>
+      <height>400</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>80</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>150</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21691506517236376">
+    <description language="pt">Tipo de Estágio</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="piechart" renderer="nvd3">
+      <domain>
+        <propertyid>tipo de estágio</propertyid>
+        <name language="fr">tipo de estágio</name>
+        <name language="zh">tipo de estágio</name>
+        <name language="ru">tipo de estágio</name>
+        <name language="ja">tipo de estágio</name>
+        <name language="en">tipo de estágio</name>
+        <name language="es">tipo de estágio</name>
+        <name language="de">tipo de estágio</name>
+        <name language="pt">Tipo de Estágio</name>
+        <maxnumberofintervals>10</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>tipo de estágio</propertyid>
+        <name language="fr">tipo de estágio</name>
+        <name language="zh">tipo de estágio</name>
+        <name language="ru">tipo de estágio</name>
+        <name language="ja">tipo de estágio</name>
+        <name language="en">Tipo de Estágio</name>
+        <name language="es">tipo de estágio</name>
+        <name language="de">tipo de estágio</name>
+        <name language="pt">Tipo de Estágio</name>
+        <scalarfunction>count</scalarfunction>
+      </range>
+      <type></type>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>600</width>
+      <height>400</height>
+      <showlegend>false</showlegend>
+      <axisinteger>false</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>100</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>100</marginbottom>
+    </displayer>
+  </kpi>
+  <kpi code="kpi_21391506516428155">
+    <description language="pt">Total de Horas</description>
+    <provider code="dataprovider_81391506513114355" />
+    <displayer type="barchart" renderer="nvd3">
+      <domain>
+        <propertyid>orientador</propertyid>
+        <name language="fr">orientador</name>
+        <name language="ru">orientador</name>
+        <name language="zh">orientador</name>
+        <name language="ja">orientador</name>
+        <name language="en">orientador</name>
+        <name language="es">orientador</name>
+        <name language="de">orientador</name>
+        <name language="pt"> </name>
+        <maxnumberofintervals>12</maxnumberofintervals>
+        <intervalstohide language="pt">Outros,---</intervalstohide>
+      </domain>
+      <range>
+        <propertyid>total de horas</propertyid>
+        <name language="fr">total de horas</name>
+        <name language="ru">total de horas</name>
+        <name language="zh">total de horas</name>
+        <name language="ja">total de horas</name>
+        <name language="en">Total de Horas</name>
+        <name language="es">total de horas</name>
+        <name language="de">total de horas</name>
+        <name language="pt">   </name>
+        <scalarfunction>sum</scalarfunction>
+        <unit language="pt">{value}</unit>
+      </range>
+      <type></type>
+      <intervalsortcriteria>1</intervalsortcriteria>
+      <intervalsortorder>-1</intervalsortorder>
+      <showlabelsxaxis>true</showlabelsxaxis>
+      <labelanglexaxis>-45</labelanglexaxis>
+      <showlinesarea>false</showlinesarea>
+      <color>#FFFFFF</color>
+      <backgroundcolor>#FFFFFF</backgroundcolor>
+      <width>1250</width>
+      <height>500</height>
+      <showlegend>false</showlegend>
+      <axisinteger>true</axisinteger>
+      <legendanchor>south</legendanchor>
+      <showtitle>false</showtitle>
+      <align>center</align>
+      <marginleft>100</marginleft>
+      <marginright>30</marginright>
+      <margintop>30</margintop>
+      <marginbottom>150</marginbottom>
+    </displayer>
+  </kpi>
+</kpis>
