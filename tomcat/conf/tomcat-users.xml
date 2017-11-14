@@ -6,8 +6,8 @@
   <role rolename="oper"/>
 	<role rolename="user"/>
 
-	<user username="deppi"  password="d3pp1"  roles="admin"/>
-    <user username="operador"  password="0perad0r"  roles="oper"/>
+	<user username="deppi"  password=""  roles="admin"/>
+    <user username="operador"  password=""  roles="oper"/>
 	<user username="usuario"   password="usuario"  roles="user"/>
 
 	<role rolename="admin-gui"/>
